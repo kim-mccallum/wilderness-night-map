@@ -1,0 +1,64 @@
+body {
+    margin:0;
+    padding: 0;
+}
+#mapid {
+    width: 100%;
+}
+
+/* .container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#overlay {
+    z-index: 1000;
+    background: rgba(255,255,255,0.7);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px grey;
+} */
+
+/* #overlay {
+    z-index: 1000;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 2%;
+    margin-top: -5px; 
+    background: rgba(255,255,255,0.7);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px grey;
+  } */
+
+.container {
+position: relative;
+}
+
+#overlay {
+    z-index: 1000;
+    height: 140px;
+    width: 285px;
+    position: absolute;
+    left: 50%;
+    margin-left: -130px;
+    /* top: 50%;
+    margin-top: -50px; */
+    background: rgba(255,255,255,0.7);
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px grey;
+}
+
+h2, p{
+    text-align: center;
+}
+p{
+    padding:5px;
+}
+h3{
+    margin-bottom:1px;
+    padding:3px;
+}
